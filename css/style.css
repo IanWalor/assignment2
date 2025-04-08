@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Kosugi';
+    src: url('subset-Kosugi-Regular.woff2') format('woff2'),
+        url('subset-Kosugi-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.flexbox-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    column-gap: 0px;
+    row-gap: 0px;
+    padding: 0px;
+    width: 60%;
+    position: relative;
+    left: 10%;
+}
+
+.flexbox-container img {
+    width: 95%;
+    height: auto;
+    z-index: 1;
+}
+
+.border{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    column-gap: -10px;
+    row-gap: -100px;
+    padding: 25px;
+    max-width: 900px;
+    width: 150px;
+    position: fixed;
+    left: 150px;
+    z-index: 0;
+    top: -3px;
+}
+
+.borer img {
+    width: 300px;
+    height: auto;
+    z-index: 1;
+    padding: 10px;
+}
+
+.hometext {
+    position: relative;
+    left: 75%;
+    top: 50%;
+}
+
+.dots{
+    position: fixed;
+    top: -150px;
+}
+
+.title{
+    position: fixed;
+    left: 1070px;
+    top: 40px;
+}
+.poemtext {
+    position: fixed;
+    left: 1000px;
+    top: 250px;
+    right: 50px;
+}
+
+.poemimg{
+    position: fixed;
+    left: 150px;
+    top: 138px;
+    z-index: 4;
+}
+
+.bigframe{
+    position: fixed;
+    overflow: hidden;
+    bottom: -70px;
+    z-index: 3;
+    left: -16px;
+}
+
+.gold{
+    position: fixed;
+    top: 175px;
+}
+
+.e{
+    position: fixed;
+    left: 50px;
+}
+
+.c{
+    position: fixed;
+    top: 600px;
+    left: 50px;
+}
+
+.hometext{
+    font-family: 'kosugi';
+    width: 25%;
+    position: fixed;
+    left: 75%;
+    top: 35%;
+}
